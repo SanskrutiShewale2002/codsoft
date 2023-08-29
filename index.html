@@ -1,166 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="task1.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
-    <title>Sanskrutishewale</title>
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-</head>
-<body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="task1.js"></script>
-    <header>
-        <div class="user">
-            <img src="images/sanskrutiimage.jpeg" alt="">
-            <h1 class="name" style="color:white">Sanskruti Shewale<br>Web Developer</h1>
-            <!-- <h1 class="post"> Front end Developer</h1> -->
-            <p style="color:white;size:2rem"> Working for improving skills by practicing
-                <br> and devoloping projects.</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sanskrutishewale</title>
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#ContactMe">ContactMe</a></li>
-            </ul>
-        </nav>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="user">
+        <img src="images/sanskrutiimage.jpeg" alt="" />
+        <h3 class="name">Sanskruti Shwale</h3>
+        <p class="post">Web Developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
+    <!-- header section ends -->
 
     <div id="menu" class="fas fa-bars"></div>
-<section class="Home" id="Home">
-    <h3>HI!</h3>
-    <H1> I'M SANSKRUTI<span></span></H1>
-    <p>Working for improving skills by practicing and devoloping projects.</p>
-    <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
-</section>
-<!-- about section starts -->
-<section class="About" id="About">
-    <p> Hi,I am Sanskruti Shewale,
-        currently pursuing B.TECH in final year EXTC engineering from Shri Guru Gobind 
-        Singhji Institute of engineering & Technology, Vishnupuri,Nanded.
-       .</p>
 
+    <!-- home section starts  -->
 
+    <section class="home" id="home">
+      <h3>Hi!</h3>
+      <h1>I'M <span>Sanskruti Shewale</span></h1>
+      <p>
+        I am currently pursuing B.Tech from Shri Guru Gobind Singhji Institute
+        of Engineering and Technology Nanded. I am web developer. I also
+        learning c++ programming .
+      </p>
+      <a href="#about"
+        ><button class="btn">About me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
 
+    <!-- home section ends -->
 
-<h1 class="heading"><span>About</span>Me</h1>
+    <!-- about section starts  -->
 
-<div class="row">
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> me</h1>
 
-    <div class="info">
-        <h3><span> name: </span> Sanskruti Shewale</h3>
-        <h3><span> Education: </span> Final extc engineering</h3>
-        <h3><span> College Name: </span> SGGSIE&T,Vishnupuri,Nanded</h3>
-        <h3><span> Mob.no. </span> 9307419022</h3>
-        <h3><span> Address</span> At.Murum,Tq.Omerga,Dist.Dharashiv</h3>
-        <a href="#"><button class="btn">download Resume <i class="fas fa-download"></i></button></a>
-    </div>
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Sanskruti Shewale</h3>
+          <h3><span> age : </span> 21</h3>
+          <h3><span> qualification : </span> Pursuing Graduation</h3>
+          <h3><span> post : </span> web developer</h3>
+          <h3><span> language : </span> English</h3>
+          <a href="#"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
 
-    <div class="counter">
-        
-    <div class="box">
-      <span>1+ year</span>
-      <h3> web developer</h3>
-      <!--<h3>year of experience</h3>-->
-     </div>
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>
+              years of experience in web developing.
+            </h3>
+          </div>
 
-    <div class="box">
-      <span>2</span>
-      <h3>projects</h3>
-    </div>
+          <div class="box">
+            <span>4+</span>
+            <h3>porject completed</h3>
+          </div>
 
-    <div class="box">
-     <span>5+</span>
-     <h3> programming language</h3>
-    </div>
-    </div>
-</div>
-</section>
-<!-- about section end -->
+          <div class="box">
+            <span>1+</span>
+            <h3>year of experience as c++ programmer </h3>
+          </div>
 
-<!--education section starts -->
-<section  class="Education" id="Education">
+          <div class="box">
+            <span>5+</span>
+            <h3>Certifications</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<h1 class="heading"> My<span>Education</span></h1>
-<div class="box-container">
+    <!-- about section ends -->
 
-<div class="box">
-   <i class="fas fa-graduation-cap"></i>
-    <span>2023</span>
-    <h3>EXTC Engineering</h3>
-    <p>I am pursing extc engineering from Shri Guru Gobind 
-        Singhji Institute of engineering & Technology, Vishnupuri,Nanded. </p>
-</div>
+    <!-- education section starts  -->
 
-<div class="box">
-  <i class="fas fa-graduation-cap"></i>
-    <span>2020</span>
-    <h3>HSC Board</h3>
-    <p> I have comlpeted my Higher Secondary School Certificate from Shri Tripura Junior Science College,Latur. </p>
-</div>
+    <section class="education" id="education">
+      <h1 class="heading">My <span>Education</span></h1>
 
-<div class="box">
-    <i class="fas fa-graduation-cap"></i>
-    <span>2018</span>
-    <h3>SSC Board</h3>
-    <p> I have comlpeted my secondary school Certificate exam from Pratibha Niketan Vidhyalaya Murum.
-     </p>
-</div>
-    </div>
-</div>
-</section>
-<!--education section ends -->
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017-2018</span>
+          <h3>SSC(secondary School Certificate)</h3>
+          <p>Pratibha Niketan Vidhyalaya ,Murum</p>
+        </div>
 
-<section  class="contact" id="contact">
- 
-<h1 class="heading"> <span>Contact</span>Me</h1>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019-2020</span>
+          <h3>HSC(Higher Secondary Certificate)</h3>
+          <p>Shri Tripura Junior Science College,Latur</p>
+        </div>
 
-<div class="row">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020-2024</span>
+          <h3>B.Tech in Electronics and Telecommunication Engineering</h3>
+          <p>SGGSIE&T Nanded, Maharashtra</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="content">
-        <h3 class="title">Contact info</h3>
+    <!-- education section ends -->
 
-    <div class="info">
-        <h3><i class="fas fa-envelope"></i> sanskrutishewale4@gmail.com</h3>
-        <h3><i class="fas fa-phone"></i>9307419022</h3>
-        <h3><i class="fas fa-map-marker-alt"></i> nanded,india - 431606</h3>
-    </div>
-    </div>
-    
-    <form action="">
-        <input type="text" placeholder=" name" class="box">
-        <input type="email" placeholder="email address" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+    <!-- portfolio section starts  -->
 
-    </form>
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Portfolio</span></h1>
 
-</div>
-</section>
-<!-- ContactMe section ends -->
+      <div class="box-container">
+        <div class="box">
+          <img src="images/img1.jpeg" alt="" />
+        </div>
 
-<!--scroll top button-->
+        <div class="box">
+          <img src="images/img2.jpeg" alt="" />
+        </div>
 
-<a href="home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
+        <div class="box">
+          <img src="images/img3.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
 
+    <!-- portfolio section ends -->
 
+    <!-- contact section starts  -->
 
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> me</h1>
 
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
 
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i>sanskrutishewale4@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 9307419022</h3>
+            <h3><i class="fas fa-phone"></i> 7263828292</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i>Murum,Maharashtra, India -
+              413605.
+            </h3>
+          </div>
+        </div>
 
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
 
+    <!-- contact section ends -->
 
+    <!-- scroll top button  -->
 
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
 
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-</body>
+    <!-- custom js file link  -->
+    <script src="task1.js"></script>
+  </body>
 </html>
